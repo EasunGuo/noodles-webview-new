@@ -1,0 +1,90 @@
+.part1{
+    height: 150px;
+    padding: 15px 40px;
+}
+.part1 span{
+    font-size: 36px;
+}
+.part1 .am-fr{
+    font-size: 22px;
+    color: #8a8a8a;
+}
+
+.part2 .am-u-sm-3{
+    height: 128px;
+}
+.part2 .am-u-sm-3 span{
+    font-size: 22px;
+    color: #8a8a8a;
+}
+.part2 .am-u-sm-3 i{
+    font-size: 22px;
+}
+.part2 .am-u-sm-3 .am-text-center{
+    margin-top: 5px;
+    font-size: 32px;
+}
+
+.part3{
+    height: 226px;
+    padding: 40px;
+}
+.part3 .am-u-sm-3{
+    width: 146px;
+    height: 146px;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    background: url("../i/picture/logo2.jpg") no-repeat center;
+    background-size: 180px;
+}
+.part3 .am-u-sm-9{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.part3 p{
+    font-size: 32px;
+    color: #333333;
+}
+.part3 span{
+    font-size: 28px;
+    color: #8a8a8a;
+}
+.part3 i{
+    position: absolute;
+    right: 20px;
+    margin-top: 40px;
+    font-size: 32px;
+    color: #8a8a8a;
+}
+
+.part4{
+    height: 70px;
+    padding: 8px 40px;
+}
+.part4 span{
+    font-size: 32px;
+}
+.part4 span i{
+    font-size: 32px;
+    color: #8a8a8a;
+}
+
+.part5{
+    font-size: 28px;
+    padding-left: 40px;
+}
+
+.part6{
+    padding-left: 40px;
+}
+
+.part6 .am-badge{
+    padding: 12px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #8a8a8a;
+    font-size: 24px;
+    color: #8a8a8a;
+    background-color: #f5f5f5;
+    font-weight: normal;
+}
