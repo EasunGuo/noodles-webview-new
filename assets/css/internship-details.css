@@ -35,7 +35,6 @@
     top: 0;
     z-index: 1;
 }
-
 .part1 .top .logo{
     width: 146px;
     height: 146px;
@@ -44,4 +43,66 @@
     background: url("../i/picture/logo2.jpg") no-repeat center;
     background-size: 180px;
     background-color: #ffffff;
+}
+
+#tab-nav{
+    padding: 15px 32px;
+    background-color: #f5f5f5;
+}
+#tab-nav li a{
+    font-size: 32px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+#border{
+    border: 0;
+}
+
+.move-up{
+    margin-top: -1px;
+}
+
+.part2 .title{
+    height: 70px;
+    margin: 0;
+    font-size: 32px;
+    color: #333333;
+    padding-top: 8px;
+    padding-left: 18px;
+}
+.part2 .content{
+    font-size: 28px;
+    margin: 0;
+    padding: 20px 32px;
+}
+
+.part3 .am-panel-bd{
+    padding: 28px 32px;
+}
+.part3 .position{
+    font-size: 36px;
+    color: #333333;
+}
+.part3 .position .am-fr{
+    font-size: 20px;
+    color: #8a8a8a;
+    margin-top: 22px;
+}
+.part3 .site{
+    font-size: 28px;
+    color: #8a8a8a;
+}
+.part3 .site .am-fr{
+    font-size: 32px;
+}
+.part3 .other{
+    font-size: 28px;
+    color: #8a8a8a;
+}
+.part3 .no-more{
+    font-size: 28px;
+    color: #8a8a8a;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }

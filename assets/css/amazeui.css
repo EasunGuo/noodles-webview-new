@@ -96,7 +96,7 @@ script {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent;
+  background-color: #ffffff;
 }
 /**
  * Address `outline` inconsistency between Chrome and other browsers.

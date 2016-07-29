@@ -2,11 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=0.5, user-scalable=no">
+    <meta content="telephone=no" name="format-detection"/>
     <title>实习详情</title>
-    <link rel="stylesheet" href="../assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="../assets/css/amazeui.css">
     <link rel="stylesheet" href="../assets/css/internship-details.css">
 </head>
-<body style="font-family: 微软雅黑">
+<body style="font-family: 微软雅黑; background-color: #f5f5f5;">
 <section>
     <div class="part1">
         <div class="bottom">
@@ -21,45 +23,76 @@
 </section>
 <section>
     <div data-am-widget="tabs" class="am-tabs am-tabs-default am-margin-horizontal-0">
-        <ul class="am-tabs-nav am-cf">
+        <ul id="tab-nav" class="am-tabs-nav am-cf">
             <li class="am-active"><a type="button" class="am-btn am-radius" href="[data-tab-panel-0]">公司简介</a></li>
             <li class=""><a type="button" class="am-btn am-radius" href="[data-tab-panel-1]">实习职位</a></li>
         </ul>
-        <div class="am-tabs-bd">
-            <div data-tab-panel-0 class="am-tab-panel am-padding-0 am-active">
-                <div class="am-panel am-panel-default">
+        <div id="border" class="am-tabs-bd">
+            <div data-tab-panel-0 class="am-tab-panel am-padding-0 am-active part2">
+                <div class="am-panel am-panel-default title">
                     <span class="am-panel-bd">公司简介</span>
                 </div>
-                <div class="am-panel am-panel-default">
-                    <p>【青春】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。</p>
+                <div class="am-panel am-panel-default move-up">
+                    <p class="content">
+                        【青春】那时候有多好，任雨打湿裙角。忍不住哼起，心爱的旋律。绿油油的树叶，自由地在说笑。燕子忙归巢，风铃在舞蹈。经过青春的草地，彩虹忽然升起。即使视线渐渐模糊，它也在我心里。就像爱过的旋律，没人能抹去。因为生命存在失望，歌唱，所以才要歌唱。
+                    </p>
                 </div>
 
-                <div class="am-panel am-panel-default">
+                <div class="am-panel am-panel-default title">
                     <span class="am-panel-bd">公司地址</span>
                 </div>
-                <div class="am-panel am-panel-default">
-                    <p>【青春】那时候有多好，任雨打湿裙角。</p>
+                <div class="am-panel am-panel-default move-up">
+                    <p class="content">【青春】那时候有多好，任雨打湿裙角。</p>
                 </div>
 
-                <div class="am-panel am-panel-default">
+                <div class="am-panel am-panel-default title">
                     <span class="am-panel-bd">企业官网</span>
                 </div>
-                <a href="#">http://amazeui.org</a>
+                <div class="am-panel am-panel-default move-up">
+                    <p class="content"><a href="#">http://amazeui.org</a></p>
+                </div>
             </div>
-            <div data-tab-panel-1 class="am-tab-panel ">
-                <div class="am-panel am-panel-default">
-                    <div class="am-panel-bd">
-                        <div>jkljskafl;jkd</div>
-                    </div>
-                </div>
 
+            <div data-tab-panel-1 class="am-tab-panel am-padding-0 part3">
                 <div class="am-panel am-panel-default">
-                    <div class="am-panel-bd">
-                        <div>jkljskafl;jkd</div>
-                    </div>
+                    <a href="#">
+                        <div class="am-panel am-panel-default am-margin-bottom-0 move-up">
+                            <div class="am-panel-bd">
+                                <div class="position">
+                                    <span>产品实习生</span>
+                                    <span class="am-fr">2016-09-12</span>
+                                </div>
+                                <div class="site">
+                                    <span>上海</span>
+                                    <span class="am-fr am-text-warning">2K-3K</span>
+                                </div>
+                                <div class="other">
+                                    <span>4天/周 | 两个月 | 若干</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="am-panel am-panel-default am-margin-bottom-0 move-up">
+                            <div class="am-panel-bd">
+                                <div class="position">
+                                    <span>产品实习生</span>
+                                    <span class="am-fr">2016-09-12</span>
+                                </div>
+                                <div class="site">
+                                    <span>上海</span>
+                                    <span class="am-fr am-text-warning">2K-3K</span>
+                                </div>
+                                <div class="other">
+                                    <span>4天/周 | 两个月 | 若干</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
                 </div>
-
-                <span>暂无更多职位</span>
+                <div class="am-text-center no-more">
+                    <span>暂无更多职位</span>
+                </div>
             </div>
         </div>
     </div>
