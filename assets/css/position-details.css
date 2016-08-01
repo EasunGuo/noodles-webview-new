@@ -10,27 +10,27 @@
     color: #8a8a8a;
 }
 
-.part2 .am-u-sm-3{
+.am-table{
     height: 128px;
     margin-top: -1px;
+    background-color: #ffffff;
 }
-.part2 .am-u-sm-3 span{
+.am-table span{
     font-size: 22px;
     color: #8a8a8a;
 }
-.part2 .am-u-sm-3 i{
+.am-table i{
     font-size: 22px;
 }
-.part2 .am-u-sm-3 .am-text-center{
-    margin-top: 5px;
+.am-table .am-text-center{
     font-size: 32px;
 }
 
-.part3{
+.part2{
     height: 226px;
-    padding: 40px;
+    padding: 40px 28px;
 }
-.part3 .am-u-sm-3{
+.part2 .am-u-sm-3{
     width: 146px;
     height: 146px;
     border: 1px solid #e3e3e3;
@@ -38,19 +38,19 @@
     background: url("../i/picture/logo2.jpg") no-repeat center;
     background-size: 180px;
 }
-.part3 .am-u-sm-9{
+.part2 .am-u-sm-8{
     margin-top: 15px;
     margin-left: 10px;
 }
-.part3 p{
+.part2 p{
     font-size: 32px;
     color: #333333;
 }
-.part3 span{
+.part2 span{
     font-size: 28px;
     color: #8a8a8a;
 }
-.part3 i{
+.part2 i{
     position: absolute;
     right: 20px;
     margin-top: 40px;
@@ -58,32 +58,33 @@
     color: #8a8a8a;
 }
 
-.part4{
+.part3{
     height: 80px;
-    padding: 15px 40px;
+    padding: 15px 28px;
 }
-.part4 span{
+.part3 span{
     font-size: 32px;
+    padding-left: 0;
 }
-.part4 span i{
+.part3 span i{
     font-size: 32px;
     color: #8a8a8a;
 }
 
-.part5{
+.part4{
     font-size: 28px;
     margin-top: -1px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.part6{
+.part5{
     margin-top: -1px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.part6 .am-badge{
+.part5 .am-badge{
     padding: 12px;
     margin-right: 20px;
     margin-bottom: 10px;
